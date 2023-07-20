@@ -30,6 +30,7 @@
             toggle_window: toggle_window {
                 label = "toggle_window";
                 compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
                 bindings
                     = <&macro_press &kp LGUI>
                     , <&macro_tap &kp TILDE>
